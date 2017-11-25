@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+{% for post in post_list %}
+    <div>
+    {{ post.title }}
+    {{ post.created_at }}
+    {% if post.photo %}{
+    {{ post.content }}
+    </div>
+{% endfor %}
+</body>
+</html>
