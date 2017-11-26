@@ -2,16 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home Page</title>
+    <title>Taiwan Map</title>
 </head>
 <body>
-{% for post in post_list %}
-    <div>
-    {{ post.title }}
-    {{ post.created_at }}
-    {% if post.photo %}{
-    {{ post.content }}
+    <div class="thumbnail">
+        <img src="http://b0.rimg.tw/secretes/450209f8.jpg" width="50%">
     </div>
-{% endfor %}
 </body>
 </html>
